@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zumping Monster</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: left;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        .contact {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>Zumping Monster</header>
+    <nav>
+        <a href="https://zumpingmonster.pages.dev">Home</a>
+        <a href="https://zumpingmonster.pages.dev/about">About</a>
+        <a href="https://zumpingmonster.pages.dev/privacy">Privacy</a>
+        <a href="https://zumpingmonster.pages.dev/disclaimer">Disclaimer</a>
+        <a href="https://zumpingmonster.pages.dev/contact">Contact</a>
+    </nav>
+   <div class="container">
+    <h1>Contact Us</h1>
+    <p>Jika Anda memiliki pertanyaan, masukan, atau membutuhkan bantuan terkait Zumping Monster, silakan hubungi kami melalui informasi di bawah ini.</p>
+    
+    <h2>Email</h2>
+    <p><a href="mailto:belyreza69@gmail.com">belyreza69@gmail.com</a></p>
+    
+    <h2>Telepon</h2>
+    <p>08776156783</p>
+</div>
+
+</body>
+</html>
