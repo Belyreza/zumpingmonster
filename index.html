@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' href='Pictures/favicon.png' type='image/x-icon'/>
+    <link rel='icon' href='gameplay/Pictures/favicon.png' type='image/x-icon'/>
 	<title>Zumping Monster</title>
 	<meta name="description" content="Zumping Monster: Lompat dan hindari monster, kumpulkan koin, dan uji refleksmu dalam petualangan seru!">
-    <style>
+   	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2273587817159765"
+     crossorigin="anonymous"></script>
+	
+	<style>
         * {
             margin: 0;
             padding: 0;
@@ -33,11 +36,17 @@
             font-size: 18px;
         }
         .container {
+            padding: 20px;
+            display: flex;
             justify-content: center;
             align-items: center;
         }
         .container img {
-            border-radius: 20px;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            cursor: pointer;
+            border-radius: 10px;
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
